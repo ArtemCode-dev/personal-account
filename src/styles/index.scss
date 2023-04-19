@@ -1,0 +1,19 @@
+@import './normalize.scss';
+@import './variables.scss';
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Montserrat';
+    background-color: $black;
+}
+
+body {
+    //min-height: 100vh;
+    //min-height: 100vw;
+}

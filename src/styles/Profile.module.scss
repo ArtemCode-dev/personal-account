@@ -1,0 +1,10 @@
+@import './/variables.scss';
+
+.profile {
+
+    &__content {
+        min-height: calc(100vh - 90px);
+        background-color: $lite_black;
+        padding-top: 137px;
+    }
+}

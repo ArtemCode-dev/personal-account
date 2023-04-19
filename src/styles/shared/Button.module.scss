@@ -1,0 +1,25 @@
+@import '../variables.scss';
+
+.filled {
+    padding: 0px 46px;
+    height: 35px;
+    font-size: 14px;
+    border: none;
+    background-color: $orange;
+    color: $black;
+    border-radius: 20px;
+}
+
+.filled.white {
+    color: $white;
+}
+
+.outlined {
+    padding: 0px 46px;
+    height: 35px;
+    font-size: 14px;
+    border: 2px solid $orange;
+    background-color: $black;
+    color: $orange;
+    border-radius: 20px;
+}
