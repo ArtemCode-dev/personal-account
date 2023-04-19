@@ -3,8 +3,26 @@
 .profile {
 
     &__content {
+        display: flex;
+        justify-content: center;
         min-height: calc(100vh - 90px);
         background-color: $lite_black;
         padding-top: 137px;
+        position: relative;
+
+        &__bg_img {
+            position: absolute;
+            top: 12px;
+        }
+
+        &__info {
+            height: 100px;
+            background-color: $dark_grey;
+            position: relative;
+            width: 1230px;
+            min-height: 320px;
+            border-radius: 20px;
+            padding: 45px 51px;
+        }
     }
 }

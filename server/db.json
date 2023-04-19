@@ -4,7 +4,7 @@
             "icon" : "https://sun9-37.userapi.com/s/v1/if2/oRTr-3Zj4lM_KvOAXDngtYy5no7j-Af9pOtsi7oIDvheBhhN9M3wQJ-Fxm5MmWw5yl8jF-f70uvjVNVJ-FlNSnIl.jpg?size=200x200&quality=96&crop=0,0,200,200&ava=1",
             "name" : "ARTEM",
             "full_name" : "Мостовой Артем Альбертович",
-            "status" : "online",
+            "status" : true,
             "teg" : "@artem",
             "study_group" : "ЭСБО-01-21",
             "student_number" : "2NUM",
@@ -69,41 +69,38 @@
                 "status" : "Идет регистрация"
             }
         ],
-        "achievements" : {
-            "total_count" : 6,
-            "achievements_list" : [
-                {
-                    "img" : "someImg",
-                    "name" : "Черепашка",
-                    "description" : "Прошел 1000 шагов с зажатым Shift"
-                },
-                {
-                    "img" : "someImg",
-                    "name" : "Черепашка",
-                    "description" : "Прошел 1000 шагов с зажатым Shift"
-                },
-                {
-                    "img" : "someImg",
-                    "name" : "Черепашка",
-                    "description" : "Прошел 1000 шагов с зажатым Shift"
-                },
-                {
-                    "img" : "someImg",
-                    "name" : "Черепашка",
-                    "description" : "Прошел 1000 шагов с зажатым Shift"
-                },
-                {
-                    "img" : "someImg",
-                    "name" : "Черепашка",
-                    "description" : "Прошел 1000 шагов с зажатым Shift"
-                },
-                {
-                    "img" : "someImg",
-                    "name" : "Черепашка",
-                    "description" : "Прошел 1000 шагов с зажатым Shift"
-                }
-            ]
-        },
+        "achievements" : [
+            {
+                "img" : "someImg",
+                "name" : "Черепашка",
+                "description" : "Прошел 1000 шагов с зажатым Shift"
+            },
+            {
+                "img" : "someImg",
+                "name" : "Черепашка",
+                "description" : "Прошел 1000 шагов с зажатым Shift"
+            },
+            {
+                "img" : "someImg",
+                "name" : "Черепашка",
+                "description" : "Прошел 1000 шагов с зажатым Shift"
+            },
+            {
+                "img" : "someImg",
+                "name" : "Черепашка",
+                "description" : "Прошел 1000 шагов с зажатым Shift"
+            },
+            {
+                "img" : "someImg",
+                "name" : "Черепашка",
+                "description" : "Прошел 1000 шагов с зажатым Shift"
+            },
+            {
+                "img" : "someImg",
+                "name" : "Черепашка",
+                "description" : "Прошел 1000 шагов с зажатым Shift"
+            }
+        ],
         "teams" : [
             {"name" : "barbaRiki team", "members_count" : 5, "img" : "someImg"}, 
             {"name" : "barbaRiki team", "members_count" : 2, "img" : "someImg"}
