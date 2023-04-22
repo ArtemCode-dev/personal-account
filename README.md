@@ -4,7 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+after installation, write in the console:
+
+### `npm i`
+
+to download the modules.
+
 In the project directory, you can run:
+
+### `npm run server`
+
+To run a local json server
 
 ### `npm start`
 

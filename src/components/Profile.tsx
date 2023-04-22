@@ -99,7 +99,7 @@ const Profile:React.FC = () => {
                         </div>
                         <div className={s.profile__content__container__teams__content}>
                           <div className={s.profile__content__container__teams__content__title}>
-                            <p><h2>Мои команды</h2> <img src={fSvg} alt="settings" /><img src={plusSvg} alt="add" /></p>
+                            <p><span>Мои команды</span><img src={fSvg} alt="settings" /><img src={plusSvg} alt="add" /></p>
                             <p>Здесь будет написан список твоих команд</p>
                           </div>
                           <div className={s.profile__content__container__teams__content__list}>
