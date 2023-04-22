@@ -14,7 +14,7 @@ const initialState:IProfileSlice = {
             name: '',
             full_name: '',
             status: true,
-            teg: '',
+            tag: '',
             study_group: '',
             student_number: '',
             phone_number: '',
@@ -54,4 +54,4 @@ export const profileSlice = createSlice({
       }
 })
 
-export default profileSlice.reducer;
+export const {reducer: profileReducer, actions: profileActions} = profileSlice;

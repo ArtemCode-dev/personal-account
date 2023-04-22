@@ -1,10 +1,12 @@
 @import './/variables.scss';
 
 .profile {
-
+    color: $white;
+    font-size: 16px;
     &__content {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         min-height: calc(100vh - 90px);
         background-color: $lite_black;
         padding-top: 137px;
@@ -16,13 +18,203 @@
         }
 
         &__info {
-            height: 100px;
             background-color: $dark_grey;
             position: relative;
             width: 1230px;
-            min-height: 320px;
+            height: 320px;
+            display: flex;
+            align-items: center;
             border-radius: 20px;
-            padding: 45px 51px;
+            padding: 33px 51px;
+            justify-content: space-between;
+
+            &__icon {
+                height: 230px;
+                width: 190px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                &__img {
+                    width: 100%;
+                    border-radius: 50%;
+
+                    & img {
+                        position: absolute;
+                    }
+                }
+
+                &__status {
+                    font-size: 16px;
+                    display: flex;
+                    align-items: center;
+                    min-width: 74px;
+
+                    &__indicator__online {
+
+                        margin-right: 10px;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        background-color: $orange;
+                    }
+                    &__indicator__offline {
+                        margin-right: 10px;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        background-color: $dark_grey;
+                        border: 1px solid $orange;
+                    }
+                }
+            }
+
+            &__social {
+                height: 255px;
+                min-width: 391px;
+
+                &__profile_name {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 11px;
+
+                    & h1{
+                        text-transform: uppercase;
+                        margin-right: 67px;
+                        font-size: 32px;
+                    }
+
+                    & span {
+                        color: $orange;
+                    }
+                }
+
+                &__full_name {
+                    margin-bottom: 17px;
+                }
+
+                &__media {
+                    min-height: 114px;
+                    margin-bottom: 30px;
+
+                    & li:last-child {
+                        margin-bottom: 0px;
+                    }
+
+                    & li {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 12px;
+
+                        & img {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+
+                &__settings {
+                    width: 307px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            &__user_info {
+                height: 100%;
+                min-width: 461px;
+
+                & h2 {
+                    margin-bottom: 30px;
+                }
+
+                & p {
+                    margin-bottom: 15px;
+                }
+
+                & span {
+                    color: $orange;
+                }
+            }
+        }
+
+        &__container {
+            width: 1230px;
+            &__row:first-child {
+                margin-top: 30px;
+                height: 362px;
+                width: 100%;
+            }
+            &__row:last-child {
+                margin-top: 26px;
+                height: 331px;
+                width: 100%;
+            }
+
+            &__row {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__reservation {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 34px 47px 44px 47px;
+                border-radius: 20px;
+                height: 100%;
+                width: 623px;
+                background-color: $dark_grey;
+
+                & h2{
+                    text-transform: uppercase;
+                }
+            }
+
+            &__tournaments {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 34px 47px 44px 47px;
+                border-radius: 20px;
+                height: 100%;
+                width: 584px;
+                background-color: $dark_grey;
+
+                &__header {
+                    display: flex;
+                    align-items: center;
+
+                    & h2 {
+                        text-transform: uppercase;
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            &__teams {
+                
+            }
+
+            &__achievements {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 34px 47px 44px 47px;
+                border-radius: 20px;
+                height: 100%;
+                width: 584px;
+                background-color: $dark_grey;
+
+                &__title {
+                    display: flex;
+
+                    & h2:last-child {
+                        color: $orange;
+                        margin-left: 8px;
+                    }
+                }
+            }
         }
     }
 }

@@ -1,0 +1,21 @@
+
+.slider_container {
+    position: relative;
+
+    &__after{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: calc(50% - 18px);
+        margin-right: -28px;
+    }
+
+    &__before{
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 18px);
+        margin-left: -28px;
+        transform: rotate(180deg);
+    }
+}

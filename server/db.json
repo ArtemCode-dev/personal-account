@@ -2,10 +2,10 @@
     "profile" : {
         "info" : {
             "icon" : "https://sun9-37.userapi.com/s/v1/if2/oRTr-3Zj4lM_KvOAXDngtYy5no7j-Af9pOtsi7oIDvheBhhN9M3wQJ-Fxm5MmWw5yl8jF-f70uvjVNVJ-FlNSnIl.jpg?size=200x200&quality=96&crop=0,0,200,200&ava=1",
-            "name" : "ARTEM",
+            "name" : "Artem",
             "full_name" : "Мостовой Артем Альбертович",
             "status" : true,
-            "teg" : "@artem",
+            "tag" : "@artem",
             "study_group" : "ЭСБО-01-21",
             "student_number" : "2NUM",
             "phone_number" : "8-800-555-35-35",
@@ -51,52 +51,56 @@
             {
                 "date" : "17.10-20.11",
                 "name" : "dota 2",
-                "status" : "Идет регистрация"
+                "status" : "Идет регистрация",
+                "img" : "https://c4.wallpaperflare.com/wallpaper/874/768/55/dota-dota-2-video-games-the-international-ti10-hd-wallpaper-preview.jpg"
             },
             {
                 "date" : "17.10-20.11",
                 "name" : "apex",
-                "status" : "Идет регистрация"
+                "status" : "Идет регистрация",
+                "img" : "https://wallpaperaccess.com/full/5837927.jpg"
             },
             {
                 "date" : "17.10-20.11",
                 "name" : "Hs",
-                "status" : "Идет регистрация"
+                "status" : "Идет регистрация",
+                "img" : "https://images.hdqwalls.com/wallpapers/hearthstone-heroes-of-warcraft-4k-dj.jpg"
             },
             {
                 "date" : "17.10-20.11",
                 "name" : "league of legends",
-                "status" : "Идет регистрация"
+                "status" : "Идет регистрация",
+                "img" : "https://c4.wallpaperflare.com/wallpaper/625/387/755/arcane-jinx-league-of-legends-league-of-legends-riot-games-4k-hd-wallpaper-preview.jpg"
             }
         ],
         "achievements" : [
             {
-                "img" : "someImg",
+                "img" : "../src/assets/svg/ach1.svg",
                 "name" : "Черепашка",
                 "description" : "Прошел 1000 шагов с зажатым Shift"
             },
             {
-                "img" : "someImg",
+                "img" : "../src/assets/svg/ach1.svg",
+                "name" : "Черепашка",
+                "description" : "Выполнил тз"
+            },
+            {
+                "img" : "../src/assets/svg/ach1.svg",
                 "name" : "Черепашка",
                 "description" : "Прошел 1000 шагов с зажатым Shift"
             },
             {
-                "img" : "someImg",
+                "img" : "../src/assets/svg/ach1.svg",
                 "name" : "Черепашка",
                 "description" : "Прошел 1000 шагов с зажатым Shift"
             },
             {
-                "img" : "someImg",
+                "img" : "../src/assets/svg/ach1.svg",
                 "name" : "Черепашка",
                 "description" : "Прошел 1000 шагов с зажатым Shift"
             },
             {
-                "img" : "someImg",
-                "name" : "Черепашка",
-                "description" : "Прошел 1000 шагов с зажатым Shift"
-            },
-            {
-                "img" : "someImg",
+                "img" : "../src/assets/svg/ach1.svg",
                 "name" : "Черепашка",
                 "description" : "Прошел 1000 шагов с зажатым Shift"
             }

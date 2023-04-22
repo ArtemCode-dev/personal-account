@@ -2,7 +2,7 @@ export interface IProfile {
     info: IInfo;
     reservation: IReservation[];
     tournaments: ITorunaments[];
-    achievements: IAchivements[];
+    achievements: IAchievements[];
     teams: ITeams[];
     friends: IFriends[];
 }
@@ -12,7 +12,7 @@ export interface IInfo {
     name: string;
     full_name: string;
     status: boolean;
-    teg: string;
+    tag: string;
     study_group: string;
     student_number: string;
     phone_number: string;
@@ -37,9 +37,10 @@ export interface ITorunaments {
     date: string;
     name: string;
     status: string;
+    img: string;
 }
 
-export interface IAchivements {
+export interface IAchievements {
     img: string;
     name: string;
     description: string;

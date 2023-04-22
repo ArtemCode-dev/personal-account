@@ -1,7 +1,10 @@
 @import '../variables.scss';
 
+//поменять кнопкам шрифт
 .filled {
-    padding: 0px 46px;
+    font-weight: 400;
+    min-width: 146px;
+    text-transform: uppercase;
     height: 35px;
     font-size: 14px;
     border: none;
@@ -12,14 +15,16 @@
 
 .filled.white {
     color: $white;
+    min-width: 128px;
 }
 
 .outlined {
-    padding: 0px 46px;
+    min-width: 146px;
+    text-transform: uppercase;
     height: 35px;
     font-size: 14px;
     border: 2px solid $orange;
-    background-color: $black;
+    background-color: $dark_grey;
     color: $orange;
     border-radius: 20px;
 }

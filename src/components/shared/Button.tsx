@@ -7,6 +7,8 @@ interface IButton {
     isWhite?: boolean;
 }
 
+//переписать на classnames
+
 const Button:React.FC <IButton> = ({children, type, isWhite}) => {
     switch(type) {
         case 'filled':
