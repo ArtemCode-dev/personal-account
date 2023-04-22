@@ -106,8 +106,8 @@
             }
         ],
         "teams" : [
-            {"name" : "barbaRiki team", "members_count" : 5, "img" : "someImg"}, 
-            {"name" : "barbaRiki team", "members_count" : 2, "img" : "someImg"}
+            {"name" : "barbaRiki team", "members_count" : 5, "img" : "https://yt3.googleusercontent.com/z98a3qnGVO4gwbhV2RLoVPb8k9lJ2MXMRDnyizdHN_s6gHK10gSOBa0-cHBkk8RX1xa3EdDN4Q=s900-c-k-c0x00ffffff-no-rj"}, 
+            {"name" : "barbaRiki team", "members_count" : 2, "img" : "https://virtuspro-media.hb.bizmrg.com/file/3x1z94AkwOw9egm3RPo63RKmVRxI16tsn5XQCrJ6.jpg"}
         ],
         "friends" : [
             {"name" : "ARTEM", "full_name" : 5, "img" : "someImg"}, 

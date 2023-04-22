@@ -13,6 +13,9 @@ import SliderContainer from './shared/SliderContainer';
 import ReservationCard from './ReservationCard';
 import TournamentsCard from './TournamentsCard';
 import AchievementsCard from './AchievementsCard';
+import fSvg from '../assets/svg/friendsSettings.svg';
+import plusSvg from '../assets/svg/addPlus.svg';
+import teamsBackground from '../assets/svg/backgroundFriends.svg';
 
 const Profile:React.FC = () => {
 
@@ -86,7 +89,36 @@ const Profile:React.FC = () => {
                     </div>
                     <div className={s.profile__content__container__row}>
                       <div className={s.profile__content__container__teams}>
-
+                        <div className={s.profile__content__container__teams__nav}>
+                          <div className={s.profile__content__container__teams__nav__team}>
+                            <p>команда</p>
+                          </div>
+                          <div className={s.profile__content__container__teams__nav__friends}>
+                            <p>Друзья</p>
+                          </div>
+                        </div>
+                        <div className={s.profile__content__container__teams__content}>
+                          <div className={s.profile__content__container__teams__content__title}>
+                            <p><h2>Мои команды</h2> <img src={fSvg} alt="settings" /><img src={plusSvg} alt="add" /></p>
+                            <p>Здесь будет написан список твоих команд</p>
+                          </div>
+                          <div className={s.profile__content__container__teams__content__list}>
+                            {profileData.teams.map((item) => (
+                              <div className={s.profile__content__container__teams__content__list__item}>
+                                <div className={s.profile__content__container__teams__content__list__item__img}><img src={item.img} alt="img" /></div>
+                                <div>
+                                  <h2>
+                                    {item.name}
+                                  </h2>
+                                  <p>
+                                    {item.members_count} игроков
+                                  </p>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                          <img className={s.profile__content__container__teams__backGround} src={teamsBackground} alt="teamsBackground" />
+                        </div>
                       </div>
                       <div className={s.profile__content__container__achievements}>
                           <div className={s.profile__content__container__achievements__title}>

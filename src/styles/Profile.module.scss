@@ -193,7 +193,109 @@
             }
 
             &__teams {
-                
+
+                width: 623px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                &__backGround {
+                    pointer-events: none;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                }
+
+                &__nav {
+                    width: 268px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-left: 26px;
+                    font-size: 16px;
+                    text-transform: uppercase;
+
+                    &__team {
+                        cursor: pointer;
+                        color: $orange;
+                        border-bottom: 1px solid $orange;
+                        padding-bottom: 5px;
+                    }
+
+                    &__friends {
+                        cursor: pointer;
+                        text-align: center;
+                        width: 113px;
+                        border-bottom: 1px solid $white;
+                        padding-bottom: 5px;
+                    }
+                }
+
+                &__content {
+                    position: relative;
+                    height: 283px;
+                    padding: 30px 45px 36px 45px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    &__title {
+                        
+                        & p:first-child {
+                            text-transform: uppercase;
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 10px;
+
+                            & img {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+
+                    &__list {
+
+                        &__item:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+
+                        &__item {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 18px;
+
+                            &__img {
+                                position: relative;
+                                width: 55px;
+                                height: 55px;
+                                border: 1px solid $orange;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                margin-right: 13px;
+
+                                & img {
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    object-fit: cover;
+                                }
+                            }
+
+                            & h2 {
+                                text-transform: uppercase;
+                            }
+
+                            & p {
+                                color: $orange;
+                            }
+                        }
+                    }
+                }
             }
 
             &__achievements {
